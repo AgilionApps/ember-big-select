@@ -1,0 +1,1 @@
+export { default } from 'ember-big-select/components/big-select-list-item/component';

@@ -1,0 +1,17 @@
+<div>
+  {{!-- TODO use icons --}}
+  {{#if isSelected}}
+    *
+  {{else}}
+    o
+  {{/if}}
+</div>
+
+<div>
+  <h1>
+    {{label}}
+  </h1>
+  <div>
+    {{yield}}
+  </div>
+</div>

@@ -1,0 +1,33 @@
+{{#big-select-list value=model.type}}
+  {{#big-select-list-item
+    value=model.type
+    option='one'
+    label='One'
+  }}
+  <ul>
+    <li>
+      One is one.
+    </li>
+    <li>
+      You should choose one.
+    </li>
+  </ul>
+  {{/big-select-list-item}}
+  {{#big-select-list-item
+    value=model.type
+    option='two'
+    label='Two'
+  }}
+  <ul>
+    <li>
+      Two is two.
+    </li>
+    <li>
+      It is better than one.
+    </li>
+    <li>
+      You should choose two.
+    </li>
+  </ul>
+  {{/big-select-list-item}}
+{{/big-select-list}}

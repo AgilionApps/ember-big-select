@@ -1,0 +1,9 @@
+<button {{action 'toggleOptions'}}>
+  {{if value value prompt}}
+</button>
+
+{{#if isShowingOptions}}
+  <div>
+    {{yield}}
+  </div>
+{{/if}}
